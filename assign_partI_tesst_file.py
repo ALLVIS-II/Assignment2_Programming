@@ -1,6 +1,7 @@
 #import list_function
 #import inventory_item
-with open("inventory.txt") as file:
+invenList = open("inven")
+print(invenList)
 
 def think():
     print(f"1. purchase item")
@@ -13,7 +14,7 @@ def think():
     return choice
 
 #def readFile(filename, inventory_list):
-#    print("In function read_file(filename, inventory_list)")
+#    print("In function read_file(filename, invento\inventory.txtry_list)")
 
 #def writeFile(filename, inventory_list):
 #    print("In function write_file(filename, inventory_list)")
