@@ -1,0 +1,11 @@
+def template():
+    print(" ", "_" * 50, sep="")
+    print("|", " "*50, "|", sep="")
+    print("|", format("*** ACME VENDING MACHINE ***", "^50s"), "|", sep="")
+    print("|", "_"*50, "|", sep="")
+    print("|", " "*50, "|", sep="")
+    
+    print("|", "_"*50, "|", sep="")
+    print("|", " "*50, "|", sep="")
+    
+template()
